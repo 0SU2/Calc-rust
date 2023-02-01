@@ -1,7 +1,7 @@
 use std::io;
 
 fn main() {
-    // Just type de function you want to use for this problems
+    // Just type de function you want to use for this problems, or you can put all of them at the same time
 }
 
 // Ingresaremos una cantidad de GB para almazenar en discos CD, estos discos tienen capacidad maxima de 
