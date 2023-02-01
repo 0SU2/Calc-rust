@@ -4,6 +4,8 @@ fn main() {
     odd_even();
 }
 
+// Ingresaremos una cantidad de GB para almazenar en discos CD, estos discos tienen capacidad maxima de 
+// 700mb cada uno
 fn many_cd(){
     println!("Ingrese el tamaño de GB a almazenar:");
     let mut number_gb = String::new();
@@ -24,6 +26,9 @@ fn many_cd(){
     println!("Cantidad de cd a usarse: {result}");
 }
 
+// funcion que nos ayuda a saber la cantidad de paga que se le dara al trabajador, para esto sabemos que si el 
+// trabajador estuvo de 40 horas o menos se le pagara 120 pesos la hora, pero si este llega a trabajar mas de 40 horas,
+// se le pagaran esas horas extras pero siendo 200 pesos cada hora extra.
 fn hours_work(){
     println!("Ingrese el numero de horas trabajadas: ");
     let mut horas = String::new();
@@ -44,6 +49,9 @@ fn hours_work(){
         
     }
 }
+
+// se le pide un numero al usuario, cada numero que se ingrese se ira almazenando y al momento que se ingrese el valor 0
+// se mostrara cuantos numeros pares y impares ingreso en el proceso
 fn odd_even(){
     let mut numero = 1;
     let mut odd = 0;
