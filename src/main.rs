@@ -1,7 +1,7 @@
 use std::io;
 
 fn main() {
-    odd_even();
+    // Just type de function you want to use for this problems, or you can put all of them at the same time
 }
 
 // Ingresaremos una cantidad de GB para almazenar en discos CD, estos discos tienen capacidad maxima de 
